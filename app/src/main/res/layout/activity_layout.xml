@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LayoutActivity">
+    tools:context=".Controller.LayoutActivity">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -106,7 +106,7 @@
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montserrat"
         android:onClick="leagueNextClicked"
-        android:text="Next"
+        android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
